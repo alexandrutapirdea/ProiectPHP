@@ -33,14 +33,14 @@
             <h4>Forgot your password?</h4>
             <p>Enter your email address and we will send you instructions on how to reset your password.</p>
           </div>
-          <form>
+            <form method="POST" action="ForgetPasswordController.php">
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus" name="email">
                 <label for="inputEmail">Enter email address</label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="login.php">Reset Password</a>
+              <input class="btn btn-primary btn-block" type = "submit" value = "Reset Password"/><br />
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="register..html">Register an Account</a>
