@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,21 +24,24 @@
   </head>
 
   <body class="bg-dark">
-
+  <div id="errMsg">
+      <?php if(!empty($_SESSION['errMsg'])) { echo $_SESSION['errMsg']; } ?>
+  </div>
+  <?php unset($_SESSION['errMsg']); ?>
     <div class="container">
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Login</div>
         <div class="card-body">
-          <form>
+          <form method="POST" action="LoginController.php">
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus" name="email">
                 <label for="inputEmail">Email address</label>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required"  name="password">
                 <label for="inputPassword">Password</label>
               </div>
             </div>
@@ -49,11 +53,11 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="index.html">Login</a>
+            <input class="btn btn-primary btn-block" type = "submit" value = "Login"/><br />
           </form>
           <div class="text-center">
-            <a class="d-block small mt-3" href="register.php">Register an Account</a>
-            <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+            <a class="d-block small mt-3" href="register..html">Register an Account</a>
+            <a class="d-block small" href="ForgetPasswordView.php">Forgot Password?</a>
           </div>
         </div>
       </div>
