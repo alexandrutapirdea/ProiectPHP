@@ -25,7 +25,7 @@
 
   <body class="bg-dark">
   <div id="errMsg">
-      <?php if(!empty($_SESSION['errMsg'])) { echo $_SESSION['errMsg']; } ?>
+      <?php if(!empty($_SESSION['errMsg'])) { echo '<div style="color:red">' . $_SESSION['errMsg'] . '</>'; } ?>
   </div>
   <?php unset($_SESSION['errMsg']); ?>
     <div class="container">

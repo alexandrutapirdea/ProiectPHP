@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 //    var_dump($realPassword);
     if (password_verify($mypassword, $realPassword)) {
-        $_SESSION['login_user'] = $myusername;
+        $_SESSION['login_user'] = $myemail;
         header("location: index.html");
     } else {
         $_SESSION['errMsg'] = 'Wrong username or password';

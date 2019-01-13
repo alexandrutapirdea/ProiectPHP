@@ -1,10 +1,12 @@
 <?php
 include("./config.php");
+ob_start();
 session_start();
 
 // initializing variables
 $username = "";
 $email    = "";
+$user_role = "1";
 $errors = array();
 
 // connect to the database
@@ -25,10 +27,13 @@ echo "req_user este" . var_dump(isset($_POST['reg_user']));
 if (isset($_POST['clicked'])) {
     // receive all input values from the form
 
+    $firstName = mysqli_real_escape_string($db, $_POST['firstName']);
+    $lastName = mysqli_real_escape_string($db, $_POST['lastName']);
     $username = mysqli_real_escape_string($db, $_POST['username']);
     $email = mysqli_real_escape_string($db, $_POST['email']);
     $password_1 = mysqli_real_escape_string($db, $_POST['inputPassword']);
     $password_2 = mysqli_real_escape_string($db, $_POST['confirmPassword']);
+    $specialy = mysqli_real_escape_string($db, $_POST['specialty']);
 
     echo "username : " . $username . PHP_EOL;
     echo "email : " . $email . PHP_EOL;
@@ -65,8 +70,8 @@ if (isset($_POST['clicked'])) {
     if (count($errors) == 0) {
         $password = password_hash($password_1, PASSWORD_DEFAULT);//encrypt the password before saving in the database
 
-        $query = "INSERT INTO users (username, email, password,registration_date) 
-  			  VALUES('$username', '$email', '$password','$registration_date')";
+        $query = "INSERT INTO users (username,first_name,last_name, email, password,registration_date,user_role) 
+  			  VALUES('$username','$firstName','$lastName', '$email', '$password','$registration_date','$user_role')";
         mysqli_query($db, $query);
         echo 'baza de date a fost updatata cu succes :) ';
         $_SESSION['username'] = $username;
