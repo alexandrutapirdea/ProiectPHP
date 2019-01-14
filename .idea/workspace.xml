@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d0648e-3a84-40ee-adeb-67866ad883c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5085621d-be85-4a73-9102-5eb475e9fbd2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5085621d-be85-4a73-9102-5eb475e9fbd2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppointmentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/AppointmentsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-new-appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/add-new-appointment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-appointments.php" beforeDir="false" afterPath="$PROJECT_DIR$/my-appointments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register..html" beforeDir="false" afterPath="$PROJECT_DIR$/register..html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shared/_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/shared/_sidebar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,10 +73,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/shared/_sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-appointments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+            <state relative-caret-position="119">
+              <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -146,7 +142,6 @@
         <option value="$PROJECT_DIR$/vendor/views/shared/_navbar.html" />
         <option value="$PROJECT_DIR$/js/importComponents.js" />
         <option value="$PROJECT_DIR$/js/import-components.js" />
-        <option value="$PROJECT_DIR$/views/shared/_sidebar.html" />
         <option value="$PROJECT_DIR$/add-new-appointment.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/LoginController.php" />
@@ -159,6 +154,7 @@
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/AppointmentsController.php" />
         <option value="$PROJECT_DIR$/my-appointments.php" />
+        <option value="$PROJECT_DIR$/views/shared/_sidebar.html" />
       </list>
     </option>
   </component>
@@ -202,6 +198,17 @@
             <path>
               <item name="ProiectPHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProiectPHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectPHP" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectPHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectPHP" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,7 +282,7 @@
       <workItem from="1547317374863" duration="459000" />
       <workItem from="1547317865856" duration="476000" />
       <workItem from="1547318363512" duration="1718000" />
-      <workItem from="1547320123702" duration="40669000" />
+      <workItem from="1547320123702" duration="41757000" />
     </task>
     <task id="LOCAL-00001" summary="Added Register and Login methods">
       <created>1543152336304</created>
@@ -295,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88006000" />
+    <option name="totallyTimeSpent" value="89094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,13 +317,13 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49731544" visible="true" weight="0.42634562" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49731544" visible="true" weight="0.42634562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
@@ -383,26 +390,6 @@
           <url>file://$PROJECT_DIR$/Logout.php</url>
           <line>7</line>
           <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/my-appointments.php</url>
-          <line>80</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/my-appointments.php</url>
-          <line>89</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/my-appointments.php</url>
-          <line>90</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/my-appointments.php</url>
-          <line>91</line>
-          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -550,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shared/_sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -652,6 +632,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-appointments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AppointmentsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -659,10 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-appointments.php">
+    <entry file="file://$PROJECT_DIR$/views/shared/_sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
         </state>
       </provider>
     </entry>

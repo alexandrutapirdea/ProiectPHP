@@ -83,7 +83,8 @@ session_start();
                                     JOIN appointments 
                                     using(appointment_id)
                                     JOIN users u
-                                    on u.user_id = a.doctor_id";
+                                    on u.user_id = a.doctor_id
+                                    WHERE a.user_id = $currentUserId";
                             $result = $db->query($sql);
                             foreach($result as $key=>$value): ?>
                                 <tr>
