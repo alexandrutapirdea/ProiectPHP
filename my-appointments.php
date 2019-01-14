@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,13 +77,19 @@
                             </tfoot>
                             <?php
                             include("config.php");
-                            $sql = "SELECT * FROM users WHERE user_role = '2'";
+
+                            $currentUserId = $_SESSION["user_id"];
+                            $sql = "select * from users_appointments a
+                                    JOIN appointments 
+                                    using(appointment_id)
+                                    JOIN users u
+                                    on u.user_id = a.doctor_id";
                             $result = $db->query($sql);
                             foreach($result as $key=>$value): ?>
                                 <tr>
                                     <td><?php echo $value['first_name'] . ' ' . $value['last_name'] ?></td>
-                                    <td>Cardiology</td>
-                                    <td>14.01.2018 : 11:30 - 12:00</td>
+                                    <td><?php echo $value['specialty']?></td>
+                                    <td><?php echo $value['date']?></td>
                                     <th><button class="btn btn-danger">Cancel appointment</button></th>
                                 </tr>
                             <?php endforeach; ?>

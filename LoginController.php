@@ -15,9 +15,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $db->query($sql);
     $realPassword = mysqli_fetch_array($result)['password'];
 
+    $currentUserIdSQL = "SELECT user_id FROM users WHERE email='$myemail'";
+    $result2 = mysqli_query($db, $currentUserIdSQL);
+    $currentUserId = mysqli_fetch_assoc($result2)['user_id'];
+
 //    var_dump($realPassword);
     if (password_verify($mypassword, $realPassword)) {
         $_SESSION['login_user'] = $myemail;
+        $_SESSION['user_id'] = $currentUserId;
         header("location: index.html");
     } else {
         $_SESSION['errMsg'] = 'Wrong username or password';

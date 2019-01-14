@@ -50,6 +50,7 @@
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <div class="form-label-group">
+                                        <div class="form-group">
                                         <?php
                                         include("config.php");
                                         $sql = "SELECT * FROM users WHERE user_role = '2'";
@@ -62,6 +63,7 @@
                                     </select>
 <!--                                        <input type="text" id="Doctor" class="form-control" placeholder="Doctor" required="required" autofocus="autofocus" name="Doctor">-->
                                         <label for="Doctor"></label>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
