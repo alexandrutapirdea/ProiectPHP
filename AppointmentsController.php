@@ -51,7 +51,6 @@ if ( isset( $_SESSION['user_id'] ) ) {
         if (count($errors) == 0) {
 
             $currentUserId = $_SESSION["user_id"];
-//            $appointmentUid = uniqid();
 
             $doctorIdSQL = "SELECT user_id FROM users WHERE username='$doctor' ";
 

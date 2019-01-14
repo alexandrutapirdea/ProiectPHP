@@ -1,5 +1,8 @@
-    <!-- Sidebar -->
-    <ul class="sidebar navbar-nav" id="sidebar-import">
+<?php
+ob_start();
+session_start();
+?>
+<ul class="sidebar navbar-nav" id="sidebar-import">
         <li class="nav-item">
             <a class="nav-link" href="index.html">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -40,8 +43,25 @@
         </li>
 
         <li class="nav-item active">
-            <a class="nav-link" href="add-new-appointment.php">
+        <a class="nav-link" href="add-new-appointment.php">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Add new appointment</span></a>
+    </li>
+<?php
+if ( isset( $_SESSION['user_id'] ) ) {
+if($_SESSION['user_id'] == 18)
+    echo
+    '   <li class="nav-item active">
+            <a class="nav-link" href="add-new-doctor.php">
                 <i class="fas fa-fw fa-table"></i>
-                <span>Add new appointment</span></a>
-        </li>
+                <span>Add new doctor</span></a>
+        </li>';
+} ?>
+
+    <li class="nav-item active">
+        <a class="nav-link" href="contact-us.php">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Contact us</span></a>
+    </li>
+
     </ul>

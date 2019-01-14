@@ -26,7 +26,7 @@
 
 <!-- Template -->
     <link rel="import" href="./views/shared/_navbar.html" id="navbar-import">
-    <link rel="import" href="./views/shared/_sidebar.html" id="sidebar-import">
+    <link rel="import" href="./views/shared/_sidebar.php" id="sidebar-import">
 </head>
 
 <body id="page-top">
@@ -45,7 +45,7 @@
                 <li class="breadcrumb-item">
                     <a href="#">Dashboard</a>
                 </li>
-                <li class="breadcrumb-item active">Tables</li>
+                <li class="breadcrumb-item active">List of Doctors</li>
             </ol>
 
             <!-- DataTables Example -->
@@ -72,12 +72,15 @@
                             </tfoot>
                             <?php
                             include("config.php");
-                            $sql = "SELECT * FROM users WHERE user_role = '2'";
+                            $sql = "SELECT * FROM users 
+                                    JOIN specialties
+                                    USING (specialty_id)
+                                    WHERE user_role = '2'";
                             $result = $db->query($sql);
                             foreach($result as $key=>$value): ?>
                                 <tr>
                                     <td><?php echo $value['first_name'] . ' ' . $value['last_name'] ?></td>
-                                    <td>Cardiology</td>
+                                    <td><?php echo $value['specialty_name'] ?></td>
                                     <th><a class ="btn btn-primary" href="./add-new-appointment.php">Request a medical examination</a></th>
                                 </tr>
                             <?php endforeach; ?>

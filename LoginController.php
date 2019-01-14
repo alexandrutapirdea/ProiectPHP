@@ -1,5 +1,6 @@
 <?php
 include("config.php");
+ob_start();
 session_start();
 
 $myemail = "";
@@ -23,6 +24,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     if (password_verify($mypassword, $realPassword)) {
         $_SESSION['login_user'] = $myemail;
         $_SESSION['user_id'] = $currentUserId;
+        $_SESSION['user_role'] = 1 ;
         header("location: index.html");
     } else {
         $_SESSION['errMsg'] = 'Wrong username or password';

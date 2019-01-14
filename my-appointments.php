@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 ?>
 <!DOCTYPE html>
@@ -29,7 +30,7 @@ session_start();
 
     <!-- Template -->
     <link rel="import" href="./views/shared/_navbar.html" id="navbar-import">
-    <link rel="import" href="./views/shared/_sidebar.html" id="sidebar-import">
+    <link rel="import" href="./views/shared/_sidebar.php" id="sidebar-import">
 </head>
 
 <body id="page-top">
@@ -91,7 +92,10 @@ session_start();
                                     <td><?php echo $value['first_name'] . ' ' . $value['last_name'] ?></td>
                                     <td><?php echo $value['specialty']?></td>
                                     <td><?php echo $value['date']?></td>
-                                    <th><button class="btn btn-danger">Cancel appointment</button></th>
+                                    <form method="POST" action="cancel-appointment.php">
+                                    <input type="hidden" name="post_appointment_id" value="<?= $value['appointment_id'] ?>" />
+                                    <th><button class="btn btn-danger" type="submit" name="clicked">Cancel appointment</button></th>
+                                    </form>
                                 </tr>
                             <?php endforeach; ?>
                             </tbody>

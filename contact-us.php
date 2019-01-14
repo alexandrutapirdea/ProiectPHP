@@ -45,63 +45,36 @@
             <div class="card card-register mx-auto mt-5">
                 <div class="card-header">Add an appointment</div>
                 <div class="card-body">
-                    <form method="POST" action="AppointmentsController.php">
+                    <form method="POST" action="ContactUsController.php">
+                        <div class="form-group">
+                            <div class="form-label-group">
+                                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" name="email" style="width:50%">
+                                <label for="inputEmail">Email address</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-label-group">
+                                <input type="text" id="Subject" class="form-control" placeholder="Subject" required="required" name="Subject" style="width:50%">
+                                <label for="Subject">Subject</label>
+                            </div>
+                        </div>
                         <div class="form-group">
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <div class="form-label-group">
-                                        <div class="form-group">
-                                        <?php
-                                        include("config.php");
-                                        $sql = "SELECT * FROM users WHERE user_role = '2'";
-                                        $result = $db->query($sql); ?>
-                                          <select id="Doctor" name="Doctor" class="form-control">
-                                        <?php foreach($result as $key=>$value): ?>
-                                        <option value="<?= $value['first_name'];?>"><?= $value['first_name'] ?>
-                                        </option>
-                                        <?php endforeach; ?>
-                                    </select>
-<!--                                        <input type="text" id="Doctor" class="form-control" placeholder="Doctor" required="required" autofocus="autofocus" name="Doctor">-->
-                                        <label for="Doctor"></label>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-label-group">
-                                        <input type="text" id="Specialty" class="form-control" placeholder="Specialty" required="required" name="Specialty">
-                                        <label for="Specialty">Specialty</label>
+                                        <textarea id="Message" class="form-control" placeholder="Message" required="required" name="Message"></textarea>
+                                        <label for="Message"></label>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                            <div class="row">
-                                <div class='col-sm-6'>
-                                    <div class="form-group">
-                                        <label for="Date">Select date</label>
-                                        <input type="date" id="Date" name="Date" max="3000-12-31"
-                                               min="1000-01-01" class="form-control"/>
-                                </div>
-                                    </div>
-                                </div>
-                        <div class="row">
-                            <div class='col-sm-6'>
-                                <div class="form-group">
-                                    <label for="Hour">Select date</label>
-                                    <select id ="Hour" name="Hour" class="form-control">
-                                        <?php for($i = 0; $i < 24; $i++): ?>
-                                            <option value="<?= $i; ?>"><?= $i ?>:00</option>
-                                        <?php endfor ?>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                            </div>
-                        <button class="btn btn-primary btn-block" type="submit" name="clicked">Send appointment</button>
-                    </form>
                 </div>
+                <button class="btn btn-primary btn-block" type="submit" name="clicked">Send appointment</button>
+                </form>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <!-- /#wrapper -->
