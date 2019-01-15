@@ -100,6 +100,8 @@ session_start();
                                     <form method="POST" action="consult.php" id="my-form">
                                         <input type="hidden" name="post_appointment_id" value="<?= $value['appointment_id'] ?>" />
                                         <input type="hidden" name="first_name" value="<?= $value['first_name'] ?>" />
+                                        <input type="hidden" name="Diagnosis" value="<?= $value['diagnosis'] ?>" />
+                                        <input type="hidden" name="Prescription" value="<?= $value['prescription'] ?>" />
                                         <input type="hidden" name="last_name" value="<?= $value['last_name'] ?>" />
                                         <td><button class="btn btn-primary" type="submit" name="clicked">Consult</button></td>
                                         <td><button class="btn btn-dark" type="submit" id="get-pdf" name="pdf">PDF</button></td>

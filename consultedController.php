@@ -40,7 +40,7 @@ if ( isset( $_SESSION['user_id'])  ) {
 
 
 
-        header('location: my-diagnostics.php');
+        header('location: my-diagnostics.html');
 
     }
 

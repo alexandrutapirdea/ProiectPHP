@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d0648e-3a84-40ee-adeb-67866ad883c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultedController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate-pdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-diagnostics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProiectPHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProiectPHP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-appointments.php" beforeDir="false" afterPath="$PROJECT_DIR$/my-appointments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shared/_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/shared/_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consultedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/consultedController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate-pdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/generate-pdf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-diagnostics.php" beforeDir="false" afterPath="$PROJECT_DIR$/my-diagnostics.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-appointments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="33" />
+            <state relative-caret-position="1173">
+              <caret line="78" column="33" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -84,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cancel-appointment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="51">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -93,8 +81,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate-pdf.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="n#tfoot#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="54" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -103,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/views/shared/_sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -111,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-diagnostics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="189" column="50" selection-start-line="189" selection-start-column="50" selection-end-line="189" selection-end-column="50" />
+            <state relative-caret-position="170">
+              <caret line="97" column="75" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -129,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consultedController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="79" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="79" />
+            <state relative-caret-position="68">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -139,25 +152,7 @@
         <entry file="file://$PROJECT_DIR$/AddNewDoctorController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
-              <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-us.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="71" column="96" selection-start-line="71" selection-start-column="96" selection-end-line="71" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add-new-appointment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+              <caret line="29" column="69" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -209,7 +204,6 @@
         <option value="$PROJECT_DIR$/ForgetPasswordView.php" />
         <option value="C:/xampp/php/php.ini" />
         <option value="$PROJECT_DIR$/tables.html" />
-        <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/vendor/views/shared/_navbar.html" />
         <option value="$PROJECT_DIR$/js/importComponents.js" />
@@ -235,8 +229,9 @@
         <option value="$PROJECT_DIR$/cconsult.php" />
         <option value="$PROJECT_DIR$/contact-us.php" />
         <option value="$PROJECT_DIR$/consult.php" />
-        <option value="$PROJECT_DIR$/consultedController.php" />
         <option value="$PROJECT_DIR$/my-diagnostics.php" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/consultedController.php" />
         <option value="$PROJECT_DIR$/generate-pdf.php" />
       </list>
     </option>
@@ -292,11 +287,6 @@
               <item name="ProiectPHP" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProiectPHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProiectPHP" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -318,6 +308,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tap\PhpstormProjects\ProiectPHP\vendor" />
       <recent name="C:\Users\Tap\PhpstormProjects\ProiectPHP" />
     </key>
   </component>
@@ -369,7 +360,7 @@
       <workItem from="1547317374863" duration="459000" />
       <workItem from="1547317865856" duration="476000" />
       <workItem from="1547318363512" duration="1718000" />
-      <workItem from="1547320123702" duration="65481000" />
+      <workItem from="1547320123702" duration="70801000" />
     </task>
     <task id="LOCAL-00001" summary="Added Register and Login methods">
       <created>1543152336304</created>
@@ -389,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112818000" />
+    <option name="totallyTimeSpent" value="118138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,13 +395,13 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4966443" visible="true" weight="0.42634562" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966443" weight="0.42634562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
@@ -419,7 +410,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" weight="0.29886687" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5033557" side_tool="true" visible="true" weight="0.42634562" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.42634562" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="13" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -543,34 +534,14 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/consultedController.php</url>
-          <line>17</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/consultedController.php</url>
-          <line>20</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/consultedController.php</url>
-          <line>23</line>
-          <option name="timeStamp" value="134" />
+          <url>file://$PROJECT_DIR$/generate-pdf.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/generate-pdf.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/generate-pdf.php</url>
-          <line>9</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/generate-pdf.php</url>
-          <line>10</line>
-          <option name="timeStamp" value="139" />
+          <line>55</line>
+          <option name="timeStamp" value="150" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -741,17 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="4" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <element signature="n#tfoot#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -827,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppointmentsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -844,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/add-new-appointment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
         </state>
       </provider>
     </entry>
@@ -858,21 +811,38 @@
     <entry file="file://$PROJECT_DIR$/AddNewDoctorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="69" />
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cancel-appointment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/shared/_sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cancel-appointment.php">
+    <entry file="file://$PROJECT_DIR$/my-appointments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="1173">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="54" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -883,34 +853,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-diagnostics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="189" column="50" selection-start-line="189" selection-start-column="50" selection-end-line="189" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consultedController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="79" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="79" />
+        <state relative-caret-position="68">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-appointments.php">
+    <entry file="file://$PROJECT_DIR$/my-diagnostics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="97" column="75" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#tfoot#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generate-pdf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="187">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
