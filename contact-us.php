@@ -69,7 +69,7 @@
                             </div>
                         </div>
                 </div>
-                <button class="btn btn-primary btn-block" type="submit" name="clicked">Send appointment</button>
+                <button class="btn btn-primary btn-block" type="submit" name="clicked">Send mail</button>
                 </form>
             </div>
         </div>

@@ -58,6 +58,13 @@ if($_SESSION['user_id'] == 18)
         </li>';
 } ?>
 
+
+    <li class="nav-item active">
+        <a class="nav-link" href="my-diagnostics.php">
+            <i class="fas fa-fw fa-table"></i>
+            <span>My Diagnostics</span></a>
+    </li>
+
     <li class="nav-item active">
         <a class="nav-link" href="contact-us.php">
             <i class="fas fa-fw fa-table"></i>
